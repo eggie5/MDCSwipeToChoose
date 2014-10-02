@@ -87,4 +87,10 @@
  */
 @property (nonatomic, copy) MDCSwipeToChooseOnPanBlock onPan;
 
+/*!
+ * Contains the directions on which the swipe will be recognized
+ * Must be set using a OR operator (like MDCSwipeDirectionUp | MDCSwipeDirectionDown)
+ */
+@property (nonatomic, assign) MDCSwipeDirection allowedSwipeDirections;
+
 @end
